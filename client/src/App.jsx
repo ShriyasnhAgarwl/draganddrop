@@ -26,7 +26,7 @@ function App() {
   }, [setSavedSchemas]);
 
   return (
-    <div className="min-h-screen bg-gray-50">
+    <div className="min-h-screen bg-gray-50 font-[roboto]">
       <Header />
       
       <div className="flex h-[calc(100vh-4rem)]">
