@@ -105,4 +105,4 @@ This project is open-source and available under the [MIT License](LICENSE).
 
 ## 👨‍💻 Author
 
-Made with ❤️ by [Your Name](https://github.com/yourhandle)
+Made with ❤️ by [Shriyansh Agarwal](https://github.com/ShriyasnhAgarwl)

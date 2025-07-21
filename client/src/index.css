@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-gray-50 text-gray-900;
+  }
+}
+
+@layer components {
+  .drag-item {
+    @apply cursor-move transition-all duration-200 hover:shadow-md;
+  }
+  
+  .drop-zone {
+    @apply border-2 border-dashed border-gray-300 transition-colors duration-200;
+  }
+  
+  .drop-zone.drag-over {
+    @apply border-primary-500 bg-primary-50;
+  }
+  
+  .form-field {
+    @apply mb-4 p-3 border border-gray-200 rounded-lg bg-white shadow-sm;
+  }
+  
+  .btn-primary {
+    @apply bg-primary-600 hover:bg-primary-700 text-white font-medium py-2 px-4 rounded-lg transition-colors duration-200;
+  }
+  
+  .btn-secondary {
+    @apply bg-gray-200 hover:bg-gray-300 text-gray-700 font-medium py-2 px-4 rounded-lg transition-colors duration-200;
+  }
+}
