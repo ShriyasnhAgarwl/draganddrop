@@ -32,7 +32,7 @@ function App() {
       <div className="flex h-[calc(100vh-4rem)]">
         {/* Sidebar - only show in builder mode */}
         {!isPreviewMode && (
-          <div className="w-80 bg-white border-r border-gray-200 overflow-y-auto">
+          <div className="w-80 bg-white border-r border-gray-200 scroll overflow-y-auto ">
             <Sidebar />
           </div>
         )}
